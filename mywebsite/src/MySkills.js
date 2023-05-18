@@ -15,11 +15,14 @@ const mySkills = [
 ];
 const MySkills = () => {
   return (
-    <div className="flex flex-wrap">
-      {mySkills.map((curelem) => {
-        return <Button name={curelem} />;
-      })}
-    </div>
+    <>
+      <h2 className="font-bold text-2xl m-5">MY SKILLS</h2>
+      <div className="flex flex-wrap">
+        {mySkills.map((curelem) => {
+          return <Button name={curelem} />;
+        })}
+      </div>
+    </>
   );
 };
 

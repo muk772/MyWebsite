@@ -1,7 +1,13 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { toggleDark } from "./Utils/DarkModeSlice";
 
 const Header = () => {
+  const dispatch = useDispatch();
+  const handleDark = () => {
+    dispatch(toggleDark());
+  };
   return (
     <>
       <div className="flex justify-between shadow-lg bg-slate-300 p-5">
@@ -11,7 +17,6 @@ const Header = () => {
         <div>
           <ul className="flex px-10">
             <Link to="/">
-              {" "}
               <li className="px-10">Home</li>
             </Link>
 
@@ -26,6 +31,9 @@ const Header = () => {
             <Link to="/contact">
               <li className="px-10">Contacts</li>
             </Link>
+            <li className="px-10 cursor-pointer" onClick={() => handleDark()}>
+              Dark
+            </li>
           </ul>
         </div>
       </div>

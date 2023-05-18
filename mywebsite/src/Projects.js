@@ -8,10 +8,10 @@ const Projects = () => {
   // console.log(projectData.projects);
 
   return (
-    <div className="flex">
+    <div className="">
       {projectData.projects.map((curelem, index) => {
         return (
-          <Link to={curelem.projectLink} key={index}>
+          <Link to={curelem.projectLink} key={index} target="_blank">
             <ProjectCard info={curelem} />
           </Link>
         );
