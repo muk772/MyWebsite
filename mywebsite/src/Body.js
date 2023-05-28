@@ -7,8 +7,7 @@ const Body = () => {
   const isDark = useSelector((store) => store.darkMode.isDark);
 
   if (!isDark) {
-    console.log(isDark);
-    return <div className="bg-slate-800">hello</div>;
+    return <div className="bg-slate-800 text-white">hello</div>;
   }
   return <div>Hello</div>;
 };

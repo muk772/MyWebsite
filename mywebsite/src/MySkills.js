@@ -3,6 +3,7 @@ import Button from "./Button";
 
 const mySkills = [
   "REACT",
+  "REDUX",
   "JAVASCRIPT",
   "TAILWIND",
   "JAVA",

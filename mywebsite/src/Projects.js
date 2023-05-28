@@ -4,8 +4,7 @@ import { projectData } from "./ProjectsData";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  // console.log(projectData.projects);
+
 
   return (
     <div className="">
