@@ -18,7 +18,7 @@ const Body = () => {
     SpeechRecognition.startListening({ continuous: true });
 
   if (!browserSupportsSpeechRecognition) {
-    return <span>Browser doesn't support speech recognition.</span>;
+    return <span>Browser doesn't support speech recognition. okay</span>;
   }
 
   // if (!isDark) {
