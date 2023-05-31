@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 const mySkills = [
-  "REACT",
+  "REACTttt",
   "REDUX",
   "JAVASCRIPT",
   "TAILWIND",
