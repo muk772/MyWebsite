@@ -1,6 +1,6 @@
 const youTubeDesc = (
   <>
-    The YouTube clone application you built is a remarkable example of modern
+    The YouTube clone application I built is a remarkable example of modern
     web development using<b> React, Redux Toolkit, and Tailwind</b>. With these
     technologies, I have successfully recreated the core functionalities of
     YouTube while incorporating additional optimizations and features. One
