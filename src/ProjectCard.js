@@ -13,7 +13,7 @@ const ProjectCard = ({ info }) => {
         <ul className="px-5">
           <li className="font-bold m-2">{info.projectName}</li>
           <Link to={info.projectLink} target="_blank">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded px-24">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 rounded px-24">
               Go To Project
             </button>
           </Link>
