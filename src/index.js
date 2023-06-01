@@ -8,16 +8,19 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Body from "./Body";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import Error from "./Error";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
         element: <Body />,
       },
+
       {
         path: "/about",
         element: <About />,
