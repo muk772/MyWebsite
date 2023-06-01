@@ -4,16 +4,10 @@ import { projectData } from "./ProjectsData";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-
-
   return (
     <div className="">
       {projectData.projects.map((curelem, index) => {
-        return (
-          <Link to={curelem.projectLink} key={index} target="_blank">
-            <ProjectCard info={curelem} />
-          </Link>
-        );
+        return <ProjectCard info={curelem} />;
       })}
     </div>
   );

@@ -6,7 +6,7 @@ const Section = ({ title, content, isVisible, setIsVisible }) => {
   console.log(isDark);
   return (
     <>
-      {show == true ? (
+      {show === true ? (
         <>
           <div className="border border-black m-2">
             <h2 className={"font-bold mb-2" + (isDark && "text-red-900")}>
@@ -31,8 +31,6 @@ const Content =
   " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequuntur molestiae placeat obcaecati pariatur soluta, corporis similique architecto, perferendis optio iste, deserunt quisrepellendus incidunt velit eligendi nulla sint error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet inventore labore ducimus placeat maiores tempora dicta id qui accusantium nemo nesciuntearum neque, nisi, odit necessitatibus dolore minima doloremque tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad expedita quae aliquid! Labore provident eligendi consequatur consequuntur ex, quos delectus laborum earum dignissimos, tenetur quiaperiam ad id minima magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sapiente accusamus magnam. Voluptate rem";
 
 const Contact = () => {
-  const [visibleSection, setVisibleSection] = useState("");
-
   return (
     <div>
       <Section title="My Name" content={Content} />

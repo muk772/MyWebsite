@@ -5,7 +5,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 
 const Body = () => {
-  const isDark = useSelector((store) => store.darkMode.isDark);
+  // const isDark = useSelector((store) => store.darkMode.isDark);
 
   const {
     transcript,

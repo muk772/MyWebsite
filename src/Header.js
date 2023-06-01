@@ -31,9 +31,9 @@ const Header = () => {
             <Link to="/contact">
               <li className="px-10">Contacts</li>
             </Link>
-            <li className="px-10 cursor-pointer" onClick={() => handleDark()}>
+            {/* <li className="px-10 cursor-pointer" onClick={() => handleDark()}>
               Dark
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
