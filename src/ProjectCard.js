@@ -5,7 +5,7 @@ const ProjectCard = ({ info }) => {
     <div className="flex">
       <div className="shadow-lg bg-slate-200 mx-3 mt-3 rounded-lg w-1/4">
         <img
-          className="w-full  p-5 rounded-lg h-80"
+          className="w-full  p-5 rounded-lg h-72"
           alt="project image"
           src={info.projectImg}
         />

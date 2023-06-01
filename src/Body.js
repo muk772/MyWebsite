@@ -26,8 +26,16 @@ const Body = () => {
   // }
   return (
     <>
-      <div>Hell</div>
-      <div className="justify-center shadow-lg w-1/4 mx-96 my-28 rounded-lg ">
+      <div className="content-center">
+        <div className="rounded-lg shadow-2xl border border-black w-1/4">
+          <img
+            alt="Work In Progress"
+            src="../Images/wip.gif"
+            className="justify-center"
+          />
+        </div>
+      </div>
+      {/* <div className="justify-center shadow-lg w-1/4 mx-96 my-28 rounded-lg ">
         <h2 className="font-bold px-2">
           <p>{transcript}</p>
         </h2>
@@ -54,7 +62,7 @@ const Body = () => {
         >
           Reset Recording
         </button>
-      </div>
+      </div> */}
     </>
   );
 };
