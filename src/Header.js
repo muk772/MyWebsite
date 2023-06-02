@@ -31,9 +31,13 @@ const Header = () => {
             <Link to="/contact">
               <li className="px-10">Contacts</li>
             </Link>
-            {/* <li className="px-10 cursor-pointer" onClick={() => handleDark()}>
-              Dark
-            </li> */}
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1a83cp-JpwCFajMzZVocyB1aB_0YWxioL/view?usp=sharing"
+              download="Mukund_Madhav_Resume"
+            >
+              <li className="px-10 cursor-pointer">Download Resume</li>
+            </a>
           </ul>
         </div>
       </div>

@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="">
+    <div className="mt-7">
       {projectData.projects.map((curelem, index) => {
-        return <ProjectCard info={curelem} />;
+        return (
+          <div className="mx-5 mb-16">
+            <ProjectCard info={curelem} />
+          </div>
+        );
       })}
     </div>
   );

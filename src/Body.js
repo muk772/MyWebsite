@@ -26,8 +26,8 @@ const Body = () => {
   // }
   return (
     <>
-      <div className="content-center">
-        <div className="rounded-lg shadow-2xl border border-black w-1/4">
+      <div className="content-center m-32 mx-96 rounded-lg shadow-2xl border border-black w-1/4">
+        <div className="rounded-lg shadow-2xl border">
           <img
             alt="Work In Progress"
             src="../Images/wip.gif"
