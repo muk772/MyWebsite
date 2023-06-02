@@ -118,12 +118,55 @@ const todoDesc = (
   </>
 );
 
+const myPersonalWebsite = (
+  <>
+    The website serves as a platform to showcase My profile, allowing visitors
+    to learn more about me and my skills. With the <b>use ofReact Router</b>, I
+    have implemented smooth navigation between different sections of my website,
+    ensuring a <b>seamless browsing experience </b> for visitors. The About Me
+    page provides valuable information about my background, experience, and
+    skills. Visitors can gain insights into my
+    <b>
+      professional journey, educational background, and any relevant
+      achievements or certifications
+    </b>
+    . This section offers a glimpse into my expertise and helps visitors
+    understand my unique value proposition. The Projects page showcases my
+    personal projects, allowing visitors to explore the work I have done. Each
+    project can be presented with a brief description, screenshots, or even live
+    demos. This section demonstrates My capabilities and provides tangible
+    evidence of my skills in action. It helps visitors assess the quality of my
+    work and serves as a testament to my expertise. In addition, my personal
+    <b>
+      website features a dedicated resume section where visitors can download
+      resume
+    </b>
+    . This section provides a convenient way for potential employers or
+    collaborators to access 🇲y detailed qualifications and professional
+    background.
+    <b>
+      Error handling in routes has been handeled by error element which is being
+      provided by React-router-dom V-6 Offering
+    </b>
+    .A downloadable resume ensures that interested parties can easily review my
+    credentials offline or share them with others. By leveraging the power of
+    React and Tailwind, my personal website offers a visually appealing and
+    responsive user interface. Tailwind's utility classes allow for rapid
+    prototyping and consistent styling throughout my website, while React
+    provides a dynamic and interactive experience for visitors. Overall, my
+    personal website serves as a professional online presence, enabling visitors
+    to get to know you better, explore my projects, and access my resume. It
+    showcases my skills and expertise, as a qualified professional in my field.
+  </>
+);
+
 export const projectData = {
   projects: [
     {
       projectName: "You tube Clone",
       projectImg: "../Images/youtubeproject.png",
       projectLink: "https://github.com/muk772/youtube",
+      projectTech: "",
       projectDesc: youTubeDesc,
     },
     {
@@ -131,6 +174,7 @@ export const projectData = {
       projectImg:
         "https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/16165408/swiggy.jpeg",
       projectLink: "https://github.com/muk772/Swiggy-Clone-",
+      projectTech: "",
       projectDesc: swiggyDesc,
     },
     {
@@ -138,6 +182,7 @@ export const projectData = {
       projectImg:
         "https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/16165408/swiggy.jpeg",
       projectLink: "https://github.com/muk772/ToDo-App-using-redux-",
+      projectTech: "",
       projectDesc: todoDesc,
     },
 
@@ -146,7 +191,8 @@ export const projectData = {
       projectImg:
         "https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/16165408/swiggy.jpeg",
       projectLink: "https://github.com/muk772/MyWebsite",
-      projectDesc: "This app is driving the swiggy app",
+      projectTech: "",
+      projectDesc: myPersonalWebsite,
     },
   ],
 };

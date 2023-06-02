@@ -2,12 +2,14 @@ import React from "react";
 import Button from "./Button";
 
 const mySkills = [
-  "REACTttt",
+  "REACT",
   "REDUX",
   "JAVASCRIPT",
   "TAILWIND",
   "JAVA",
   "CSS",
+  "HTML",
+  "BOOTSTRAP",
   "MONGO DB",
   "MUI",
   "GIT",
@@ -19,8 +21,8 @@ const MySkills = () => {
     <>
       <h2 className="font-bold text-2xl m-5">MY SKILLS</h2>
       <div className="flex flex-wrap">
-        {mySkills.map((curelem) => {
-          return <Button name={curelem} />;
+        {mySkills.map((curelem, index) => {
+          return <Button name={curelem} key={index} />;
         })}
       </div>
     </>
