@@ -5,6 +5,8 @@ const mySkills = [
   "REACT",
   "REDUX",
   "JAVASCRIPT",
+  "ES16",
+  "REACT HOOKS",
   "TAILWIND",
   "JAVA",
   "CSS",
