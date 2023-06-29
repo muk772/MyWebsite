@@ -8,8 +8,8 @@ const Introduction = () => {
         <h2 className="leading-8 text-justify  mt-5">
           I am a highly skilled professional with a strong educational
           background and valuable industry experience. My journey began at
-          <b> NS DAV Public School</b>, where I completed my schooling,
-          achieving an excellent score of
+          <b> Public School</b>, where I completed my schooling, achieving an
+          excellent score of
           <b> 85%</b> in 12th grade. Building upon my academic success, I
           pursued a <b>Bachelor of Technology degree in Computer Science</b>{" "}
           from
