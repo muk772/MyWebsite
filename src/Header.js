@@ -18,7 +18,7 @@ const Header = () => {
           <ul className="flex px-10">
             <Link to="/">
               <li className="px-10 hover:scale-110 hover:underline decoration-orange-400">
-                Home
+                Homes
               </li>
             </Link>
 
